@@ -1,0 +1,53 @@
+{
+    "add_is_visible": true,
+    "category": "input forms",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "blocknote_guion",
+    "events": {
+        "AAI": {
+            "caption": "On content changed",
+            "name": "on_content_changed"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "Document ID",
+            "editor": "StaticText",
+            "name": "document_id",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "Initial JSON",
+            "editor": "StaticText",
+            "long_text": true,
+            "name": "initial_json",
+            "rank": 1
+        },
+        "AAF": {
+            "caption": "Theme",
+            "editor": "Dropdown",
+            "name": "theme",
+            "optional": true,
+            "options": "claro,oscuro",
+            "rank": 2
+        }
+    },
+    "icon": "ion-android-clipboard",
+    "platform_type": "web",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAG": {
+            "caption": "value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "value",
+            "value": "text"
+        }
+    }
+}
